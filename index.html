@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Happy Birthday Varma Bro</title>
+
+<style>
+body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #ff758c, #6a11cb);
+    color: white;
+    overflow: hidden;
+}
+
+h1 {
+    font-size: 60px;
+    margin-top: 15%;
+    animation: glow 2s infinite alternate;
+}
+
+h2 {
+    font-size: 28px;
+    margin-top: 20px;
+}
+
+p {
+    font-size: 22px;
+}
+
+@keyframes glow {
+    from {
+        text-shadow: 0 0 10px #fff, 0 0 20px #ff4da6;
+    }
+    to {
+        text-shadow: 0 0 20px #fff, 0 0 40px #ff0080;
+    }
+}
+
+/* Floating balloons */
+.balloon {
+    position: absolute;
+    bottom: -100px;
+    width: 50px;
+    height: 70px;
+    background: red;
+    border-radius: 50%;
+    animation: float 6s infinite;
+}
+
+@keyframes float {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-110vh); }
+}
+</style>
+
+</head>
+
+<body>
+
+<h1>🎉 Happiest Birthday Varma Bro 🎂</h1>
+
+<h2>We miss you ❤️</h2>
+
+<p>Have a blessed year ahead ✨</p>
+
+<!-- Balloons -->
+<div class="balloon" style="left:10%; background:#ff4d4d;"></div>
+<div class="balloon" style="left:30%; background:#4dff88; animation-delay:1s;"></div>
+<div class="balloon" style="left:50%; background:#4da6ff; animation-delay:2s;"></div>
+<div class="balloon" style="left:70%; background:#ffff4d; animation-delay:3s;"></div>
+<div class="balloon" style="left:90%; background:#ff66ff; animation-delay:4s;"></div>
+
+</body>
+</html>
